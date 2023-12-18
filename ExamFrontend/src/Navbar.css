@@ -1,0 +1,39 @@
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 1rem;
+height: 100px;
+padding-block: 0.2rem;
+padding-inline: 3rem;
+border-radius: 0.5rem;
+background-color: hsl(292deg 84% 5% / 50%);
+
+}
+
+
+
+.header__ul {
+display: flex;
+justify-content: center;
+gap: 1.5rem;
+list-style: none;
+
+
+}
+
+.header__a {
+padding-inline: 1rem;
+padding-block: 0.8rem;
+color: hsl(27deg 95% 90% / 70%);
+background: hsl(292deg 84% 10% / 70%);
+text-decoration: none;
+transition: color 0.2s ease-in-out;
+border-radius: 0.5rem;
+}
+
+.header__a:hover {
+color: hsl(27deg 95% 90% / 95%);
+
+
+}
